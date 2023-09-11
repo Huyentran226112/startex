@@ -1,0 +1,384 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row-no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col, [class*=col-] {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.col-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.header {
+  z-index: 1;
+  position: relative;
+  background-image: url(./image/header.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.header-title {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 225px;
+}
+.header-img {
+  border-radius: 64%;
+  overflow: hidden;
+  width: 80px;
+  margin: 24px auto;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  justify-content: center;
+}
+.header-text {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Exo", sans-serif;
+}
+.header-icon {
+  background-color: #8185a3;
+  padding: 54px;
+}
+.header-try {
+  padding-top: 38px;
+  padding-bottom: 58px;
+  text-decoration: none !important;
+  text-align: center;
+}
+.header-click {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  color: white;
+  background-color: #ff6d6d;
+  padding: 19px 56px;
+}
+
+.design {
+  background-color: white;
+}
+.design-left {
+  padding-bottom: 73px;
+  padding-top: 82px;
+}
+.design-title {
+  color: #ff6d6d;
+  margin-bottom: 43px;
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+}
+.design-text {
+  margin-top: 11px;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 421px;
+}
+.design-text1 {
+  color: black;
+  margin-top: 34px;
+  line-height: 26px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+}
+.design-dots {
+  color: #ff6d6d;
+}
+.design-desc {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+.design-img {
+  background-image: url(./image/img.png);
+  width: 100%;
+  height: 100%;
+  margin-left: 78px;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .design-img {
+    min-height: 50vw;
+  }
+}
+.design-col-right {
+  padding: 0px !important;
+}
+@media (max-width: 767px) {
+  .design-col-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .design-col-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .design-col-left {
+    padding-left: 5%;
+  }
+}
+@media (min-width: 992px) {
+  .design-col-left {
+    padding-left: 3%;
+  }
+}
+@media (min-width: 1200px) {
+  .design-col-left {
+    padding-left: 6%;
+  }
+}
+
+.feature {
+  background-image: url(./image/image.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+.feature-header {
+  padding-top: 134px;
+  text-align: center;
+}
+.feature-heading {
+  color: #ff6d6d;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+}
+.feature-title {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 123px;
+  font-family: "Exo", sans-serif;
+}
+.feature-text {
+  font-size: 22px;
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.feature-desc {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.feature-icon {
+  padding-bottom: 22px;
+}
+.feature-icon-gap {
+  text-align: center;
+}
+
+.resposi {
+  padding-top: 81px;
+  padding-bottom: 73px;
+}
+.resposi-title {
+  color: #ff6d6d;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+}
+.resposi-desc {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Exo", sans-serif;
+}
+.resposi-dots {
+  color: #ff6d6d;
+}
+
+.user {
+  padding-top: 108px;
+  background-image: url(./image/backgroud.png);
+}
+.user-title {
+  color: white;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.user-desc {
+  color: #ff6d6d;
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.user-text {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  padding-bottom: 96px;
+}
+.user-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.user-icon {
+  text-align: center;
+  padding-bottom: 77px;
+}/*# sourceMappingURL=style.css.map */

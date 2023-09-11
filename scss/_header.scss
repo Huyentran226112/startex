@@ -1,0 +1,52 @@
+.header{
+        // background: transparent;
+        z-index: 1;
+        position: relative;
+        background-image: url(./image/header.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        &-title {
+                font-family: "Exo", sans-serif;
+                text-align: center;
+                font-size: 60px;
+                font-weight: 400;
+                padding-top: 225px;
+               
+            }
+        &-img {
+            border-radius: 64%;
+            overflow: hidden;
+            width: 80px;
+            margin: 24px auto;
+            height: 76px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            justify-content: center;
+        }
+           &-text{
+            text-align: center;
+            font-size: 14px;
+            font-family: 'Exo', sans-serif;    
+        }
+           &-icon {
+            background-color: #8185a3;
+            padding: 54px;
+        }  
+        &-try {
+                padding-top: 38px;
+                padding-bottom: 58px;
+                text-decoration: none !important;
+                text-align: center;
+        }
+        &-click{
+                font-size: 16px;
+                text-decoration: none;
+                font-family: 'Exo', sans-serif;    
+                color: #ffff;
+                background-color: #ff6d6d;
+                padding: 19px 56px;
+        }
+}
