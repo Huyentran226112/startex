@@ -177,8 +177,8 @@ input {
   text-align: center;
   font-size: 60px;
   font-weight: 100;
-  max-width: 886px;
-  margin-left: 113px;
+  max-width: 718px;
+  margin-left: 174px;
   line-height: 1.5;
 }
 .header-img {
@@ -250,6 +250,7 @@ input {
 .design-desc {
   font-family: "Exo", sans-serif;
   font-size: 40px;
+  max-width: 494px;
   font-weight: 300;
 }
 .design-img {
