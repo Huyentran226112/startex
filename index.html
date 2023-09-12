@@ -48,30 +48,33 @@
         </header>
         <div class="main">
             <section class="design">
-                <div class="container design-col-left">
+                <div class="container-fluid ">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-7 design-col-left">
                             <div class="design-left">
                                 <div class="design-title">NEW DESIGN</div>
                                 <h4 class="design-desc">There is no other
                                     platforms for you as like <span
                                         class="design-dots">....</span></h1></h4>
-                            <p class="design-text">Aenean eu leo quam.
-                                Pellentesque ornare sem lacinia quam venenatis
-                                vestibulum. Donec id elit non mi porta gravida
-                                at eget metus. Curabitur blandit tempus
-                                porttitor. Etiam porta sem malesuada magna
-                                mollis euismod. Vestibulum id ligula porta felis
-                                euismod semper.
-                            </p>
-                            <p class="design-text1"> Donec sed odio dui. Aenean
-                                lacinia bibendum nulla sed consectetur. Donec
-                                ullamcorper nulla non metus auctor fringilla.
-                                Aenean lacinia bibendum nulla sed consectetur.
-                                Nulla vitae elit libero, a pharetra augue. </p>
+                            <div class="design-text">
+
+                                <p >Aenean eu leo quam.
+                                    Pellentesque ornare sem lacinia quam venenatis
+                                    vestibulum. Donec id elit non mi porta gravida
+                                    at eget metus. Curabitur blandit tempus
+                                    porttitor. Etiam porta sem malesuada magna
+                                    mollis euismod. Vestibulum id ligula porta felis
+                                    euismod semper.
+                                </p>
+                                <p > Donec sed odio dui. Aenean
+                                    lacinia bibendum nulla sed consectetur. Donec
+                                    ullamcorper nulla non metus auctor fringilla.
+                                    Aenean lacinia bibendum nulla sed consectetur.
+                                    Nulla vitae elit libero, a pharetra augue. </p>
+                            </div>
                             </div>
                         </div>
-                        <div class="col-6 design-col-right">
+                        <div class="col-5 design-col-right">
                              <div class="design-img"></div>
                         </div>
                     </div>
@@ -199,7 +202,7 @@
                                     </div>
                                      <h4 class="user-title">Jonathon Doe</h4>
                                      <div class="user-desc">Co Founder</div>
-                                     <p class="user-text">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
+                                     <p class="user-text">“Aenean eu leo quam. Pellentesque ornare sem lacinia qua emere wancerid elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn”</p>
                                 </div>
                             </div>
                         </div>
@@ -233,27 +236,34 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="over-wrap">
-                                <div class="over-title">
-                                    NEW FEATURES
+                                <div class="over-header">
+                                    <h5 class="over-sub-title">
+                                        NEW FEATURES
+                                    </h5>
+                                    <h3 class="over-title">
+                                        Over 1000 designers are using ...
+                                    </h3>
                                 </div>
-                                <h4 class="over-desc">Over 1000 designers are using ...</h4>
-                                <div class="over-seach">
-                                    <input type="text" placeholder="FULL NAME" class="over-name">
+                              
+                                <div class="over-body">
+                                    <form class="over-from">
+                                        <input type="text" class="over-input" placeholder="FULL NAME">
+                                        <input type="text" class="over-input" placeholder="YOUR EMAIL">
+                                        <input type="text" class="over-input" placeholder="PASSWORD">
+                                    </form>
+                                    <div class="over-img">
+                                        <div class="over-icon">
+                                            <img src="./image/muiten.png" class="over-image" alt="">
+                                            <div class="over-day">30 days free trial for all.</div>
+                                        </div>
+                                        <a href="#" class="over-img-link"> TRY NOW</a>
+                                    </div>
+                                 </div>
+                                <div class="over-footer">
+                                    <p>
+                                        By Signing up you agree to our <a href="#" class="over-link">terms & Services.</a> 
+                                    </p>
                                 </div>
-                                <div class="over-seach">
-                                    <input type="text" placeholder="YOUR EMAIL" class="over-name">
-                                </div>
-                                <div class="over-seach">
-                                    <input type="text" placeholder="PASSWORD" class="over-name">
-                                </div>
-                                <div class="over-seach">
-                                    <div class="over-day">30 days free trial for all.</div>
-                                   <div class="over-img"><img src="./image/muiten.png" alt=""></div> 
-                                    <button>TRY NOW</button>
-                                </div>
-                                <p class="over-text">
-                                    By Signing up you agree to our terms & Services.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -261,10 +271,88 @@
             </section>
         </div>
         <!-- Phần footer -->
-        <footer class="footer relative">
-            <div class="container">
-
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="footer-main">
+                  <div class="footer-column">
+                    <img srcset="./image/logofooter.png 2x" alt="" class="footer-logo">
+                        <a href="" class="footer-linkt">Aenean lacinia bibendum nulla sed </a>
+                        <a href="" class="footer-linkt">consectetur. Aenean eu leo quam.  </a>
+                        <a href="" class="footer-linkt">USA &  CAN: 1-888-123-4567</a>
+                        <a href="" class="footer-linkt"> Address: 34 Brokel Rd. NY </a>
+                  </div> 
+                  <div class="footer-column">
+                    <h3 class="footer-heading">Support</h3>
+                    <ul class="footer-listter">
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">About</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Work</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Careers</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Pricing</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="footer-heading">About US</h3>
+                    <ul class="footer-listter">
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Branding</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Websites</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Development</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Strategy</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Platforms</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="footer-heading">Get Newsletter</h3>
+                    <ul class="footer-listter">
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Help Desk</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Docs</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Open a Ticket</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Chat</a>
+                      </li>
+                      <li class="footer-itemm">
+                        <a href="" class="footer-linkt">Forum</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="footer-heading">Newsletter</h3>
+                   <p class="footer-descs">Subscribe to our newsletter to keep up to date on our marketing, website, design services, and tips.</p>
+                   <div class="footer-input">
+                    <input type="text" class="footer-inputt" placeholder="Enter email">
+              <div class="footer-link button">Submit</div>
+             </div>
+              <p class="footer-descs1">We hate spam as much as you do. We will never, ever send you such emails. </p>
             </div>
+            </div>
+          </div>
         </footer>
     </body>
 </html>

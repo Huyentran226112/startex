@@ -1,10 +1,12 @@
 .feature{
     background-image: url(./image/image.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-top: 111px;
+    padding-bottom: 123px;
     background-position: center;
     background-size: cover;
     z-index: 1;
+    object-fit: cover;
     position: relative;
     &-header{
         padding-top: 134px;

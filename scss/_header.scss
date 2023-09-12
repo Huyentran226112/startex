@@ -4,16 +4,18 @@
         position: relative;
         background-image: url(./image/header.png);
         background-repeat: no-repeat;
-        height: 100vh;
         background-position: center;
         background-size: cover;
+        padding-top: 157px;
+        padding-bottom: 240px;
         &-title {
                 font-family: "Exo", sans-serif;
-                text-align: center;
-                font-size: 60px;
-                font-weight: 400;
-                padding-top: 225px;
-               
+                        text-align: center;
+                        font-size: 60px;
+                        font-weight: 100;
+                        max-width: 886px;
+                        margin-left: 113px;
+                        line-height: 1.5;
             }
         &-img {
             border-radius: 64%;
