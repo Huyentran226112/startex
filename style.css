@@ -381,4 +381,65 @@ body {
 .user-icon {
   text-align: center;
   padding-bottom: 77px;
+}
+
+.awesone-wrap {
+  text-align: center;
+  margin-top: 43px;
+}
+.awesone-img {
+  text-align: center;
+}
+.awesone-title {
+  color: #ff6d6d;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+}
+.awesone-desc {
+  font-size: 40px;
+  font-family: "Exo", sans-serif;
+  margin-bottom: 30px;
+}
+.awesone-text {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  margin-bottom: 130px;
+}
+
+.over {
+  background-color: #323969;
+}
+.over-wrap {
+  margin-top: 94px;
+  margin-bottom: 86px;
+}
+.over-seach {
+  display: inline-block;
+  margin-right: 20px;
+}
+.over-seach input {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #464c77;
+  width: 229px;
+  border: 1px solid #fff;
+}
+.over-title {
+  color: #ff6d6d;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Exo", sans-serif;
+}
+.over-desc {
+  font-size: 40px;
+  text-align: center;
+  color: white !important;
+  font-family: "Exo", sans-serif;
+}
+.over-text {
+  margin-top: 23px;
+  text-align: center;
+  color: white !important;
 }/*# sourceMappingURL=style.css.map */

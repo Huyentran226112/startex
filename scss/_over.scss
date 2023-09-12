@@ -1,0 +1,38 @@
+.over{
+    background-color: #323969;
+    &-wrap{
+        margin-top: 94px;
+        margin-bottom: 86px;
+    }
+    &-seach{
+        display: inline-block;
+        margin-right: 20px;
+
+    }
+    &-seach input {
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #464c77;
+        width: 229px;
+        border: 1px solid #fff;
+        
+    }
+    &-title{
+        color: #ff6d6d;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Exo', sans-serif;
+    }
+    &-desc{
+        font-size: 40px;
+        text-align: center;
+        color: white !important; 
+        font-family: 'Exo', sans-serif;
+    }
+    &-text{
+        margin-top: 23px;
+        text-align: center;
+        color: white !important; 
+    }
+}
