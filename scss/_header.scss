@@ -6,10 +6,10 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        padding-top: 157px;
-        padding-bottom: 240px;
+        padding-top: 158px;
+        padding-bottom: 243px;
         &-title {
-                font-family: "Exo", sans-serif;
+                font-family: 'Exo', sans-serif;
                 text-align: center;
                 font-size: 60px;
                 font-weight: 100;
@@ -18,24 +18,28 @@
                 line-height: 1.5;
             }
         &-img {
-            border-radius: 64%;
-            overflow: hidden;
-            width: 80px;
-            margin: 24px auto;
-            height: 76px;
-            display: flex;
-            align-items: center;
-            margin-bottom: 6px;
-            justify-content: center;
+                border-radius: 71%;
+                overflow: hidden;
+                width: 57px;
+                margin: 26px auto;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 18px;
+                justify-content: center;
         }
            &-text{
-            text-align: center;
-            font-size: 14px;
-            font-family: 'Exo', sans-serif;    
+                color:#8b8b8e;
+                text-align: center;
+                font-size: 14px;
+                font-family: "Exo", sans-serif;
+                margin-top: -24px;
+                margin-left: -4px;
+                letter-spacing: 0.3px;  
         }
            &-icon {
             background-color: #8185a3;
-            padding: 54px;
+            padding: 24px;
         }  
         &-try {
                 padding-top: 38px;
@@ -46,9 +50,10 @@
         &-click{
                 font-size: 16px;
                 text-decoration: none;
-                font-family: 'Exo', sans-serif;    
-                color: #ffff;
+                font-family: "Exo", sans-serif;
+                color: white;
                 background-color: #ff6d6d;
-                padding: 19px 56px;
+                padding: 14px 51px;
+                letter-spacing: 2.4px;
         }
 }

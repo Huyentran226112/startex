@@ -1,6 +1,8 @@
 .resposi{
     padding-top: 81px;
     padding-bottom: 73px;
+
+    
     &-title{
         color: #ff6d6d; 
         margin-bottom: 10px;
@@ -11,11 +13,15 @@
         font-size: 40px;
         font-weight: 400;
         font-family: 'Exo', sans-serif;
-
+        line-height: 45px;
     }
    
     &-dots{
         color: #ff6d6d; 
     }
- 
+   &-img {
+        margin-left: -58px;
+      
+    }
+   
 }
