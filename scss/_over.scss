@@ -116,6 +116,9 @@
         gap: 30px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        @media(max-width:768px){
+            display: block;
+        }
     }
     .my-input{
         color: #9092a7;
