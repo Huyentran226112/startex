@@ -4,6 +4,11 @@
         padding-bottom: 190px;
         padding-top: 175px;
         padding-left: 52px;
+    @media (max-width: 767px) {
+        padding-bottom: 104px;
+        padding-top: 79px;
+        padding-left: 11px;
+        }
     }
    &-title {
     color: #ff6d6d;
@@ -18,18 +23,19 @@
         color:#8b8b8e;
         font-family: "Exo", sans-serif;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1.7;
         max-width: 548px;
     }
    &-dots{
     color:#ff6d6d;
     }
+
     &-desc {
         letter-spacing: 0.6px;
         font-family: "Exo", sans-serif;
         font-size: 40px;
         max-width: 535px;
-        line-height: 50px;
+        line-height: 1.5;
         font-weight: 500;
     }
     &-text p:first-child {
