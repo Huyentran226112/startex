@@ -5,7 +5,6 @@
             right: 189px;
         }
     }
-
 }
 @media (max-width:1200px) {
     .header{
@@ -74,9 +73,6 @@
     }
 }
 @media(max-width:1008px){
-    // .over .my-input {
-    //     padding: 1px 36px 1px 32px;
-    // }
     .over-form {
         margin-left: -32px;
         gap: 9px;
@@ -119,11 +115,44 @@
         gap: 9px;
     }
 }
-
+@media(max-width:880px) {
+    .header-title {
+        font-size: 3em;
+        margin-left: -25px;
+    }
+    .over .my-input {
+        padding: 14px 14px 14px 14px;
+    }
+    .over-form {
+        margin-left: -65px;
+        gap: 9px;
+    }
+    .awesone-text {
+        margin-left: 25px !important;
+    }
+    .design{
+        &::before {
+            content: "";
+            background: red;
+            width: 154%;
+            height: 33%;
+            display: block;
+            position: relative;
+            right: 29px;
+            bottom: -713px;
+            transform: rotate(319deg);
+            opacity: 0.5;
+        }
+    }
+}
 @media(max-width:826px) {
     .header-title {
         font-size: 3em;
         margin-left: -25px;
+    }
+    .over-form {
+        margin-left: -58px !important;
+        gap: 7px;
     }
 }
 @media (max-width: 767px) {
@@ -144,13 +173,14 @@
             display: block;
         }
     }
+  
     .over-form {
-        margin-left: 7px;
+        margin-left: 7px !important;
         gap: 9px;
     }
-    .over-days{
-        display: none;
-    }
+    // .over-days{
+    //     display: none;
+    // }
     .footer{
         &-input {
             padding: 8px 45px 8px 19px;
@@ -158,6 +188,9 @@
         &::before{
             display: block;
         }
+    }
+    &::before {
+        bottom: 84px;
     }
 }
 

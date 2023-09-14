@@ -7,7 +7,6 @@
     @media (max-width: 767px) {
         padding-bottom: 104px;
         padding-top: 79px;
-        padding-left: 11px;
         }
     }
    &-title {
@@ -60,11 +59,19 @@
             opacity: 0.5;
         }
         @media (max-width: 767px) {
-            min-height: 104vw;
-            &-img{
+            min-height: 127vw;
                 &::before{
                     display: block;
-                }
+                    content: "";
+                    background: red;
+                    width: 177%;
+                    height: 73%;
+                    display: block;
+                    position: relative;
+                    right: 29px;
+                    bottom: -481px;
+                    transform: rotate(322deg);
+                    opacity: 0.5;
             }
         }
     }
