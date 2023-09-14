@@ -370,6 +370,12 @@ input {
 .feature-icon-gap {
   text-align: center;
 }
+@media (max-width: 768px) {
+  .feature .blog-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 
 .resposi {
   padding-top: 81px;
@@ -482,6 +488,11 @@ input {
   margin-left: 247px;
   margin-bottom: 63px;
 }
+@media (max-width: 768px) {
+  .awesone .awesone-text {
+    margin-left: -11px;
+  }
+}
 
 .over {
   background-color: #323969;
@@ -533,7 +544,8 @@ input {
 }
 @media (max-width: 768px) {
   .over-form {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
 .over .my-input {

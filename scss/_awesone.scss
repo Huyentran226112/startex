@@ -27,5 +27,10 @@
         margin-left: 247px;
         margin-bottom: 63px;
     }
-
+    @media(max-width:768px){
+        .awesone-text {
+            margin-left: -11px;
+        }
+     }
+ 
 }
