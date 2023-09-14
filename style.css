@@ -266,6 +266,9 @@ img {
   line-height: 50px;
   font-weight: 500;
 }
+.design-text p:first-child {
+  margin-bottom: 10px;
+}
 .design-img {
   overflow: hidden;
   background-image: url(./image/img.png);
@@ -281,7 +284,7 @@ img {
   display: block;
   position: relative;
   right: 29px;
-  bottom: -430px;
+  bottom: -442px;
   transform: rotate(319deg);
   opacity: 0.5;
 }
