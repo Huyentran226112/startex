@@ -274,7 +274,7 @@ input {
   display: block;
   position: relative;
   right: 29px;
-  bottom: -460px;
+  bottom: -428px;
   transform: rotate(319deg);
   opacity: 0.5;
 }
@@ -407,6 +407,12 @@ input {
 .resposi-img {
   margin-left: -58px;
 }
+@media (max-width: 768px) {
+  .resposi .col-reposive {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 
 .user {
   padding-top: 108px;
@@ -441,6 +447,12 @@ input {
 .user-icon {
   text-align: center;
   padding-bottom: 77px;
+}
+@media (max-width: 768px) {
+  .user .col-user {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .awesone-wrap {
