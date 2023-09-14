@@ -17,6 +17,10 @@ body {
   line-height: 1;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -184,7 +188,7 @@ input {
 .header-img {
   border-radius: 71%;
   overflow: hidden;
-  width: 57px;
+  width: 60px;
   margin: 26px auto;
   height: 60px;
   display: flex;
@@ -278,6 +282,9 @@ input {
   .design-img {
     min-height: 104vw;
   }
+  .design-img-img::before {
+    display: block;
+  }
 }
 .design-col-right {
   padding: 0px !important;
@@ -366,7 +373,21 @@ input {
 
 .resposi {
   padding-top: 81px;
+  overflow: hidden;
+  position: relative;
   padding-bottom: 73px;
+}
+.resposi::before {
+  content: "";
+  background: red;
+  width: 59%;
+  height: 110%;
+  display: block;
+  position: absolute;
+  left: -270px;
+  bottom: -188px;
+  transform: rotate(228deg);
+  opacity: 0.5;
 }
 .resposi-title {
   color: #ff6d6d;
@@ -454,18 +475,29 @@ input {
   background-color: #323969;
   padding-top: 90px;
   padding-bottom: 85px;
+  position: relative;
 }
 .over-days {
   display: flex;
   align-items: center;
+  position: absolute;
+  right: 230px;
+  bottom: 180px;
 }
 .over-link {
   color: #fff;
 }
+.over-text {
+  color: #fff;
+  margin-top: -28px;
+  font-family: "Exo", sans-serif;
+  text-decoration: none;
+}
 .over-sub-title {
   color: #ff6d6d;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
+  letter-spacing: 3px;
   font-size: 16px;
   font-family: "Exo", sans-serif;
 }
@@ -478,7 +510,7 @@ input {
 .over-title {
   font-size: 40px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 55px;
   color: white !important;
   font-family: "Exo", sans-serif;
 }
@@ -492,7 +524,7 @@ input {
   background: #464c77;
   border-radius: 2px;
   border: 1px solid #999cb4;
-  padding: 17px 147px 17px 18px;
+  padding: 15px 72px 15px 18px;
 }
 .over input ::-moz-placeholder {
   color: #9092a7;
@@ -500,10 +532,34 @@ input {
 .over input ::placeholder {
   color: #9092a7;
 }
+.over .btn-button {
+  background-color: #ff6d6d;
+  color: #fff;
+  padding: 16px 84px;
+  border: 0px solid #fff;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
 .footer {
   padding-top: 95px;
   padding-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  background: red;
+  width: 84%;
+  height: 166%;
+  display: block;
+  position: absolute;
+  right: -911px;
+  bottom: -153px;
+  transform: rotate(226deg);
+  opacity: 0.5;
 }
 .footer-main {
   display: grid;
@@ -535,8 +591,9 @@ input {
   margin-bottom: 12px;
 }
 .footer-input {
-  padding: 17px 45px 17px 17px;
+  padding: 20px 45px 23px 19px;
   border-radius: 2px;
+  margin-top: -2px;
   font-family: "Exo", sans-serif;
   border: 1px solid #b8b8bf;
 }
@@ -547,7 +604,7 @@ input {
 }
 .footer-image {
   background: #ff6d6d;
-  padding: 16px;
+  padding: 18px;
   margin-left: -4px;
   border-radius: 2px;
 }
@@ -569,6 +626,12 @@ input {
   .resposi-wrap {
     flex-direction: column;
   }
+  .footer-input {
+    padding: 8px 45px 8px 19px;
+  }
+  .footer::before {
+    display: block;
+  }
 }
 @media (max-width: 992px) {
   .header-title {
@@ -577,10 +640,35 @@ input {
     margin-left: 11px;
   }
 }
+@media (max-width: 540) {
+  .header-title {
+    font-size: 2em;
+    max-width: 703px;
+    margin-left: -7px;
+  }
+}
 @media (max-width: 1200px) {
   .header-title {
     font-size: 4em;
     max-width: 718px;
     margin-left: 99px;
+  }
+  .design::before {
+    content: "";
+    background: red;
+    width: 144%;
+    height: 55%;
+    display: block;
+    position: relative;
+    right: -88px;
+    bottom: -769px;
+    transform: rotate(319deg);
+    opacity: 0.5;
+  }
+  .footer-input {
+    padding: 8px 45px 8px 19px;
+  }
+  .footer::before {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -20,13 +20,6 @@
         line-height: 30px;
         max-width: 548px;
     }
-    // &-text1{
-    //     color: black;
-    //     margin-top: 34px;
-    //     line-height: 26px;
-    //     font-family: 'Exo', sans-serif;
-    //     font-size: 16px;
-    // }
    &-dots{
     color:#ff6d6d;
     }
@@ -59,6 +52,11 @@
     
         @media (max-width: 767px) {
             min-height: 104vw;
+            &-img{
+                &::before{
+                    display: block;
+                }
+            }
         }
     }
     &-col-right{
