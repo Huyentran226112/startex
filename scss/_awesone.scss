@@ -10,6 +10,7 @@
         color: #ff6d6d;
         margin-bottom: 10px;
         font-size: 16px;
+        letter-spacing: 3px;
         font-family: 'Exo', sans-serif;
     }
    &-desc{
@@ -29,7 +30,7 @@
     }
     @media(max-width:768px){
         .awesone-text {
-            margin-left: -11px;
+            margin-left: 0px;
         }
      }
  

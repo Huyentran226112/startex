@@ -22,6 +22,7 @@
         gap: 50px;
         @media(max-width:768px){
             display: block;
+            overflow: hidden;
         }
     }
     &-heading {
@@ -30,6 +31,9 @@
         font-family: "Exo", sans-serif;
         margin-bottom: 47px;
         font-weight: 500;
+        @media(max-width:768px){
+            margin-bottom: 20px;
+        }
     }
     &-link {
         text-decoration: none;
@@ -41,9 +45,12 @@
     }
     &-item {
         margin-bottom: 20px;
-        
     }
-    
+    &-column{
+        @media(max-width:768px){
+            margin-bottom: 30px;
+        }
+    }
     ul.footer-listter {
         list-style: none;
     }
@@ -51,7 +58,7 @@
         margin-bottom: 12px;
     }
     &-input {
-        padding: 20px 45px 23px 19px;
+        padding: 17px 45px 18px 19px;
         border-radius: 2px;
         margin-top: -2px;
         font-family: "Exo", sans-serif;
@@ -67,9 +74,11 @@
         padding: 18px;
         margin-left: -4px;
         border-radius: 2px;
-    }
-    input {
-        background-color: #f6f6f6;
+        @media(max-width:768px){
+                padding: 9px;
+                margin-left: -4px;
+        }
+
        
     }
     &-desc {

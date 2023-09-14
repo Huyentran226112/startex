@@ -18,8 +18,10 @@
    
     &-title{
         color: #ff6d6d; 
+        letter-spacing: 3px;
         margin-bottom: 10px;
         font-size: 16px;
+        font-weight: 400;
         font-family: 'Exo', sans-serif;
     }
     &-desc{
@@ -40,5 +42,11 @@
         flex: 0 0 100%;
         max-width: 100%;
        }
+       .col-reposive-left {
+        right: -26px;
+        }
+       .col-reposive-right {
+            right: -6px;
+        }
     }
 }

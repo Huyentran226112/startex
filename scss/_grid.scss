@@ -124,7 +124,10 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%
-}    
-input{
-    color: white;
-}
+}   
+.my-input{
+    &::placeholder{
+        color: white;
+        font-size: inherit;
+    }
+} 

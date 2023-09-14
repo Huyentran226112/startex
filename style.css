@@ -149,8 +149,14 @@ img {
   max-width: 100%;
 }
 
-input {
+.my-input::-moz-placeholder {
   color: white;
+  font-size: inherit;
+}
+
+.my-input::placeholder {
+  color: white;
+  font-size: inherit;
 }
 
 .d-flex {
@@ -182,7 +188,7 @@ input {
   font-size: 4em;
   font-weight: 100;
   max-width: 718px;
-  margin-left: 174px;
+  margin-left: 194px;
   line-height: 1.5;
 }
 .header-img {
@@ -207,7 +213,7 @@ input {
 }
 .header-icon {
   background-color: #8185a3;
-  padding: 24px;
+  padding: 23px;
 }
 .header-try {
   padding-top: 38px;
@@ -237,6 +243,7 @@ input {
   color: #ff6d6d;
   margin-bottom: 6px;
   font-size: 16px;
+  font-weight: 400;
   letter-spacing: 2.5px;
   font-family: "Exo", sans-serif;
 }
@@ -270,11 +277,11 @@ input {
   content: "";
   background: red;
   width: 144%;
-  height: 55%;
+  height: 57%;
   display: block;
   position: relative;
   right: 29px;
-  bottom: -428px;
+  bottom: -430px;
   transform: rotate(319deg);
   opacity: 0.5;
 }
@@ -343,11 +350,13 @@ input {
   color: #ff6d6d;
   font-family: "Exo", sans-serif;
   font-size: 16px;
+  letter-spacing: 3px;
 }
 .feature-title {
   font-size: 40px;
   font-weight: 500;
-  padding-bottom: 123px;
+  margin-top: 13px;
+  margin-bottom: 123px;
   font-family: "Exo", sans-serif;
 }
 .feature-text {
@@ -397,8 +406,10 @@ input {
 }
 .resposi-title {
   color: #ff6d6d;
+  letter-spacing: 3px;
   margin-bottom: 10px;
   font-size: 16px;
+  font-weight: 400;
   font-family: "Exo", sans-serif;
 }
 .resposi-desc {
@@ -417,6 +428,12 @@ input {
   .resposi .col-reposive {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .resposi .col-reposive-left {
+    right: -26px;
+  }
+  .resposi .col-reposive-right {
+    right: -6px;
   }
 }
 
@@ -472,6 +489,7 @@ input {
   color: #ff6d6d;
   margin-bottom: 10px;
   font-size: 16px;
+  letter-spacing: 3px;
   font-family: "Exo", sans-serif;
 }
 .awesone-desc {
@@ -490,7 +508,7 @@ input {
 }
 @media (max-width: 768px) {
   .awesone .awesone-text {
-    margin-left: -11px;
+    margin-left: 0px;
   }
 }
 
@@ -506,6 +524,11 @@ input {
   position: absolute;
   right: 230px;
   bottom: 180px;
+}
+@media (max-width: 768px) {
+  .over-days {
+    right: 143px;
+  }
 }
 .over-link {
   color: #fff;
@@ -571,6 +594,11 @@ input {
   border-radius: 4px;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  .over .btn-button {
+    margin-top: 39px;
+  }
+}
 
 .footer {
   padding-top: 95px;
@@ -598,6 +626,7 @@ input {
 @media (max-width: 768px) {
   .footer-main {
     display: block;
+    overflow: hidden;
   }
 }
 .footer-heading {
@@ -606,6 +635,11 @@ input {
   font-family: "Exo", sans-serif;
   margin-bottom: 47px;
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .footer-heading {
+    margin-bottom: 20px;
+  }
 }
 .footer-link {
   text-decoration: none;
@@ -618,6 +652,11 @@ input {
 .footer-item {
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .footer-column {
+    margin-bottom: 30px;
+  }
+}
 .footer ul.footer-listter {
   list-style: none;
 }
@@ -625,7 +664,7 @@ input {
   margin-bottom: 12px;
 }
 .footer-input {
-  padding: 20px 45px 23px 19px;
+  padding: 17px 45px 18px 19px;
   border-radius: 2px;
   margin-top: -2px;
   font-family: "Exo", sans-serif;
@@ -642,8 +681,11 @@ input {
   margin-left: -4px;
   border-radius: 2px;
 }
-.footer input {
-  background-color: #f6f6f6;
+@media (max-width: 768px) {
+  .footer-image {
+    padding: 9px;
+    margin-left: -4px;
+  }
 }
 .footer-desc {
   line-height: 1.6;
